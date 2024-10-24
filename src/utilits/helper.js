@@ -73,3 +73,29 @@ export const LatestNewsBlog = [
     link: "#",
   },
 ];
+export const servicesPricing = [
+  {
+    title: "Haircut",
+    price: "$20",
+    description:
+      "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec.",
+  },
+  {
+    title: "Trimming",
+    price: "$25",
+    description:
+      "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec.",
+  },
+  {
+    title: "Shavings",
+    price: "$15",
+    description:
+      "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec.",
+  },
+  {
+    title: "Facial",
+    price: "$20",
+    description:
+      "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec.",
+  },
+];

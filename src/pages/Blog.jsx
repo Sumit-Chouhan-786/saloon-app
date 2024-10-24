@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import LatestNews from "../components/common/LatestNews";
+import Footer from "../components/common/Footer";
 
 const Blog = () => {
   return (
-    <div>Blog</div>
-  )
-}
+    <>
+      <LatestNews />
+      <Footer />
+    </>
+  );
+};
 
-export default Blog
+export default Blog;
