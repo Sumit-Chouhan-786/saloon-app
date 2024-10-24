@@ -12,6 +12,11 @@ import razor from "../assets/images/png/razor.png";
 import mustache from "../assets/images/png/mustache.png";
 import hairStyling from "../assets/images/png/hair.png";
 import review_img from "../assets/images/webp/review-image.webp";
+import velNews from "../assets/images/webp/vel-news.webp";
+import portaNews from "../assets/images/webp/porla-news.webp";
+import fringillaNews from "../assets/images/webp/fringilla-news.webp";
+import liberoNews from "../assets/images/webp/libero-news.webp";
+
 // nav links
 export const NavLinks = [
   { path: HOME_PATH, title: "Home" },
@@ -40,5 +45,31 @@ export const REVIEWS = [
   {
     img: review_img,
     name: "JOHN HOOD, NY",
+  },
+];
+export const LatestNewsBlog = [
+  {
+    img: velNews,
+    title: "Vel Pellentesque",
+    description: "Duis porta, ligula rhoncus euismod pretium, nisi tellus",
+    link: "#",
+  },
+  {
+    img: portaNews,
+    title: "Porta Consequat ",
+    description: "Duis porta, ligula rhoncus euismod pretium, nisi tellus",
+    link: "#",
+  },
+  {
+    img: fringillaNews,
+    title: "Fringilla Augue",
+    description: "Duis porta, ligula rhoncus euismod pretium, nisi tellus",
+    link: "#",
+  },
+  {
+    img: liberoNews,
+    title: "Libero Vestibulum",
+    description: "Duis porta, ligula rhoncus euismod pretium, nisi tellus",
+    link: "#",
   },
 ];
