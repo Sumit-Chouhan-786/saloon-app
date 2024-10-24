@@ -11,6 +11,7 @@ import facial from "../assets/images/png/facial.png";
 import razor from "../assets/images/png/razor.png";
 import mustache from "../assets/images/png/mustache.png";
 import hairStyling from "../assets/images/png/hair.png";
+import review_img from "../assets/images/webp/review-image.webp";
 // nav links
 export const NavLinks = [
   { path: HOME_PATH, title: "Home" },
@@ -26,4 +27,18 @@ export const servicesContent = [
   { image: facial, title: "FACIAL" },
   { image: mustache, title: "MUSTACHE TRIMMING" },
   { image: hairStyling, title: "HAIR STYLING" },
+];
+export const REVIEWS = [
+  {
+    img: review_img,
+    name: "GLEN SPARKLE, MIAMI",
+  },
+  {
+    img: review_img,
+    name: "JANE DOE, NEW YORK",
+  },
+  {
+    img: review_img,
+    name: "JOHN HOOD, NY",
+  },
 ];
