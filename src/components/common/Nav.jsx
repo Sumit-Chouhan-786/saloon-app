@@ -17,7 +17,9 @@ const Nav = () => {
     <>
       <div className="container md:py-10 py-5">
         <div className="flex justify-between items-center relative z-50">
-          <NavLogo />
+          <a href="/">
+            <NavLogo />
+          </a>
           <div className="lg:flex hidden gap-10 items-center">
             <a
               href="#"
