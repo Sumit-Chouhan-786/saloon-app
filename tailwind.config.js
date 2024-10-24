@@ -6,6 +6,7 @@ module.exports = {
       backgroundImage: {
         "services-bg": "url('../src/assets/images/png/services-bg.png')",
         hero: "url('./assets/images/webp/hero-bg.webp')",
+        "contact-bg": "url('./assets/images/png/contact-form-bg.png')",
       },
       fontFamily: {
         abril: ["Abril Fatface", "serif"],
@@ -13,7 +14,7 @@ module.exports = {
       colors: {
         lightBlack: "#979797",
         yellow: "#E9C664",
-        raisinBlack: "#212121"
+        raisinBlack: "#212121",
       },
     },
   },
