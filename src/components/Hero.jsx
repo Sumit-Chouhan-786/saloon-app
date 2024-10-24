@@ -2,7 +2,14 @@ import React from "react";
 import Nav from "./common/Nav";
 import heroLogo from "../assets/images/webp/hero-logo.webp";
 import { useLocation } from "react-router-dom";
-import { ABOUT_PATH, BLOG_PATH, CONTACT_PATH, HOME_PATH, SERVICES_PATH } from "../utilits/Constant";
+import {
+  ABOUT_PATH,
+  BLOG_PATH,
+  CONTACT_PATH,
+  HOME_PATH,
+  SERVICES_PATH,
+  BOOKING_PATH,
+} from "../utilits/Constant";
 const Hero = () => {
   const useLocationPath = useLocation();
   const pathname = useLocationPath.pathname;
@@ -38,6 +45,11 @@ const Hero = () => {
           {pathname === SERVICES_PATH && (
             <h1 className="text-white text-center font-normal lg:text-[70px] md:text-[50px] text-[40px] font-abril uppercase">
               Services
+            </h1>
+          )}
+          {pathname === BOOKING_PATH && (
+            <h1 className="text-white text-center font-normal lg:text-[70px] md:text-[50px] text-[40px] font-abril uppercase">
+              Booking
             </h1>
           )}
         </div>

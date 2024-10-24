@@ -6,12 +6,14 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Hero from "./components/Hero";
 import ServicesPage from "./pages/ServicesPage";
+import Booking from "./pages/Booking";
 import {
   ABOUT_PATH,
   BLOG_PATH,
   CONTACT_PATH,
   HOME_PATH,
   SERVICES_PATH,
+  BOOKING_PATH,
 } from "./utilits/Constant";
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
         <Route path={BLOG_PATH} element={<Blog />} />
         <Route path={CONTACT_PATH} element={<Contact />} />
         <Route path={SERVICES_PATH} element={<ServicesPage />} />
+        <Route path={BOOKING_PATH} element={<Booking />} />
       </Routes>
     </div>
   );

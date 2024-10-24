@@ -4,6 +4,7 @@ import Button from "./Button";
 import MobileNav from "./MobileNav";
 import { useLocation } from "react-router-dom";
 import { NavLinks } from "../../utilits/helper";
+import { BOOKING_PATH } from "../../utilits/Constant";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,9 +41,9 @@ const Nav = () => {
               </a>
             ))}
           </div>
-          <div className="lg:block hidden">
+          <a href={BOOKING_PATH} className="lg:block hidden">
             <Button content="BOOK APPOINTMENT" />
-          </div>
+          </a>
           <button className="lg:hidden block" onClick={NavOpenHandler}>
             <NavMenu />
           </button>
