@@ -16,7 +16,7 @@ import velNews from "../assets/images/webp/vel-news.webp";
 import portaNews from "../assets/images/webp/porla-news.webp";
 import fringillaNews from "../assets/images/webp/fringilla-news.webp";
 import liberoNews from "../assets/images/webp/libero-news.webp";
-
+import barberImage from "../assets/images/png/barber-img.png";
 // nav links
 export const NavLinks = [
   { path: HOME_PATH, title: "Home" },
@@ -97,5 +97,63 @@ export const servicesPricing = [
     price: "$20",
     description:
       "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec.",
+  },
+];
+export const ourBarbers = [
+  {
+    img: barberImage,
+    barberName: "MARLON MCDONALD",
+    facebookLink: "#",
+    twitterLink: "#",
+    instagramLink: "#",
+  },
+  {
+    img: barberImage,
+    barberName: "JERRY BANKS",
+    facebookLink: "#",
+    twitterLink: "#",
+    instagramLink: "#",
+  },
+  {
+    img: barberImage,
+    barberName: "JOHN BAILEY",
+    facebookLink: "#",
+    twitterLink: "#",
+    instagramLink: "#",
+  },
+  {
+    img: barberImage,
+    barberName: "DIANA JORDAN",
+    facebookLink: "#",
+    twitterLink: "#",
+    instagramLink: "#",
+  },
+  {
+    img: barberImage,
+    barberName: "JERRY BANKS",
+    facebookLink: "#",
+    twitterLink: "#",
+    instagramLink: "#",
+  },
+  {
+    img: barberImage,
+    barberName: "PAMELA BAILEY",
+    facebookLink: "#",
+    twitterLink: "#",
+    instagramLink: "#",
+  },
+  {
+    img: barberImage,
+    barberName: "MARLON MCDONALD",
+    facebookLink: "#",
+    twitterLink: "#",
+    instagramLink: "#",
+  },
+  {
+    img: barberImage,
+    barberName: "JERRY BANKS",
+    facebookLink: "#",
+    twitterLink: "#",
+    instagramLink: "#",
   },
 ];
