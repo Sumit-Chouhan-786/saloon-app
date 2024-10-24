@@ -4,8 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
-import Services from "./pages/Services";
 import Hero from "./components/Hero";
+import ServicesPage from "./pages/ServicesPage";
 import {
   ABOUT_PATH,
   BLOG_PATH,
@@ -23,7 +23,7 @@ function App() {
         <Route path={ABOUT_PATH} element={<About />} />
         <Route path={BLOG_PATH} element={<Blog />} />
         <Route path={CONTACT_PATH} element={<Contact />} />
-        <Route path={SERVICES_PATH} element={<Services />} />
+        <Route path={SERVICES_PATH} element={<ServicesPage />} />
       </Routes>
     </div>
   );
