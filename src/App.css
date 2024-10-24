@@ -5,3 +5,6 @@ body {
 .abril {
   font-family: "Abril Fatface", serif;
 }
+.container {
+  @apply px-3 max-w-[1300px] mx-auto;
+}

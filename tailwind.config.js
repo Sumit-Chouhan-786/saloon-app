@@ -6,7 +6,11 @@ module.exports = {
       fontFamily: {
         abril: ["Abril Fatface", "serif"],
       },
-    },  
+      colors: {
+        lightBlack: "#979797",
+        yellow: "#E9C664",
+      },
+    },
   },
   plugins: [],
 };
