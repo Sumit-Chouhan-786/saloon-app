@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Services from "../components/common/Services";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Services />
+    </>
+  );
+};
 
 export default Home
