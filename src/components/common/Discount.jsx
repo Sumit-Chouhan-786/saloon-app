@@ -3,7 +3,7 @@ import men from '../../assets/images/png/discount.png'
 const Discount = () => {
   return (
     <div className="bg-yellow">
-      <div className="container lg:py-[103px] py-[50px] overflow-hidden px-4 mx-auto relative">
+      <div className="container lg:py-[103px] max-w-[1332px] py-[50px] overflow-hidden px-4 mx-auto relative">
         <img className="absolute bottom-[-150px] sm:bottom-[-100px]  right-0" src={men} alt="discount" />
         <div className="max-w-[600px] pb-[100px] lg:pb-0">
           <h2 className="text-[40px] lg:text-[70px] font-abril">

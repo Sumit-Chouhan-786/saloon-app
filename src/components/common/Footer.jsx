@@ -2,8 +2,8 @@ import React from 'react'
 import { LocationIcon, EmailIcon, PhoneIcon, TimeIcon } from '../../utilits/icons'
 const Footer = () => {
   return (
-    <div className="bg-white">
-      <div className="container px-4 mx-auto pt-[60px]">
+    <div className="bg-white lg:py-[100px] py-8 md:py-12">
+      <div className="container px-4 mx-auto">
         <h2 className='font-abril font-normal text-[50px] tracking-[0.5px] !leading-[135%] text-center'>CONTACT US</h2>
         <p className='text-base text-center font-normal !leading-normal mt-6 max-w-[771px] mx-auto'>
           Duis pretium gravida enim, vel maximus ligula fermentum a. Sed rhoncus
