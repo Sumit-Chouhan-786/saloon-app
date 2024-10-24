@@ -20,9 +20,9 @@ const Services = () => {
           </>
         )}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
-          {servicesContent.map((service) => (
+          {servicesContent.map((service, index) => (
             <div
-              key={service.id}
+              key={index}
               className="border border-yellow py-12 flex flex-col items-center justify-center px-10 p-4"
             >
               <img src={service.image} alt={service.title} />
