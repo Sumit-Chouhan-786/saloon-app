@@ -3,10 +3,16 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "services-bg": "url('../src/assets/images/png/services-bg.png')",
+      },
       fontFamily: {
         abril: ["Abril Fatface", "serif"],
       },
-    },  
+      colors: {
+        yellow: "#E9C664",
+      },
+    },
   },
   plugins: [],
 };
