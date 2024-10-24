@@ -7,7 +7,7 @@ export const REVIEWS = [
     },
     {
       img: review_img,
-      name: 'MICHAEL RICHARDS, CALIFORNIA',
+      name: 'JANE DOE, NEW YORK',
     },
     {
       img: review_img,

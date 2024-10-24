@@ -5,16 +5,27 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
+import Hero from "./components/Hero";
+import {
+  ABOUT_PATH,
+  BLOG_PATH,
+  CONTACT_PATH,
+  HOME_PATH,
+  SERVICES_PATH,
+} from "./utilits/Constant";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/services" element={<Services />} />
-    </Routes>
+    <div className="bg-black">
+      <Hero />
+      <Routes>
+        <Route path={HOME_PATH} element={<Home />} />
+        <Route path={ABOUT_PATH} element={<About />} />
+        <Route path={BLOG_PATH} element={<Blog />} />
+        <Route path={CONTACT_PATH} element={<Contact />} />
+        <Route path={SERVICES_PATH} element={<Services />} />
+      </Routes>
+    </div>
   );
 }
 
