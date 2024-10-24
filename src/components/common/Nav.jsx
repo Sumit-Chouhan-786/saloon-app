@@ -15,7 +15,7 @@ const Nav = () => {
   };
   return (
     <>
-      <div className="container md:py-10 py-5">
+      <div className="lg:max-w-[1332px] container px-4 mx-auto md:py-10 py-5 flex-grow-0">
         <div className="flex justify-between items-center relative z-50">
           <a href="/">
             <NavLogo />

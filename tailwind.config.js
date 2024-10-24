@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "services-bg": "url('../src/assets/images/png/services-bg.png')",
+        hero: "url('./assets/images/webp/hero-bg.webp')",
       },
       fontFamily: {
         abril: ["Abril Fatface", "serif"],
